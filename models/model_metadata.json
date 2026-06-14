@@ -1,0 +1,16 @@
+{
+  "dataset": "Metro Interstate Traffic Volume",
+  "algorithm": "Isolation Forest",
+  "contamination": 0.03,
+  "expected_main_file": "resultados_anomalias.csv",
+  "optional_model_files": [
+    "modelo_isolation_forest.pkl",
+    "preprocessor.pkl",
+    "features_modelo.pkl"
+  ],
+  "notes": [
+    "O notebook treina o modelo e exporta o CSV.",
+    "A aplicação lê o CSV para exibir o dashboard.",
+    "O parâmetro contamination=0.03 representa uma hipótese de 3% de registros atípicos."
+  ]
+}
